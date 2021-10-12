@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="tudock" translate="label" sortOrder="999">
+			<label>Tudock</label>
+		</tab>
+		<section id="todays_message_sec" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>Todays Message</label>
+			<tab>tudock</tab>
+			<resource>Tudock_TodaysMessage::config_tudock_todaysmessage</resource>
+			<group id="todays_message_group" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Todays Message</label>
+				<field id="todays_message_field" translate="label" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+					<label>Todays Message</label>
+					<frontend_model>Tudock\TodaysMessage\Block\Adminhtml\Form\Field\Ranges</frontend_model>
+					<backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

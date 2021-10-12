@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Tudock\TodaysMessage\Api\TudockIndexerRepositoryInterface" type="Tudock\TodaysMessage\Model\TudockIndexerRepository"/>
+	<preference for="Tudock\TodaysMessage\Api\Data\TudockIndexerInterface" type="Tudock\TodaysMessage\Model\Data\TudockIndexer"/>
+	<preference for="Tudock\TodaysMessage\Api\Data\TudockIndexerSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+</config>

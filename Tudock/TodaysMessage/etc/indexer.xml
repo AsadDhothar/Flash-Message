@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer id="prod_msge_customindexer_indexer" view_id="prod_msge_customindexer_indexer" class="Tudock\TodaysMessage\Model\Indexer" shared_index="prod_msge_customindexer_indexer">
+        <title translate="true">Prod Msge Custom Indexer Title</title>
+        <description translate="true">Prod Msge Custom Indexer Description</description>
+    </indexer>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="tudock_todaysmessage_tudock_indexer" resource="default" engine="innodb" comment="tudock_todaysmessage_tudock_indexer Table">
+		<column xsi:type="smallint" name="tudock_indexer_id" padding="6" unsigned="true" nullable="false" identity="true" comment="Entity Id"/>
+		<constraint xsi:type="primary" referenceId="PRIMARY">
+			<column name="tudock_indexer_id"/>
+		</constraint>
+		<column name="category" nullable="true" xsi:type="text" comment="category"/>
+		<column name="product" nullable="true" xsi:type="text" comment="product"/>
+		<column name="message" nullable="true" xsi:type="text" comment="message"/>
+	</table>
+</schema>
